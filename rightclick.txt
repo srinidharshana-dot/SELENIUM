@@ -1,4 +1,5 @@
 System.setProperty("webdriver.chrome.driver","C:\\C driver\\chromedriver.exe");
+System.setProperty("webdriver.gecko.driver","C:\\C driver\\chromedriver.exe");
 		WebDriver d=new ChromeDriver();
 		d.get("https://demo.guru99.com/test/simple_context_menu.html");
 		WebElement dc=d.findElement(By.xpath("//*[@id=\"authentication\"]/button"));
